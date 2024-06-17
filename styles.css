@@ -41,6 +41,7 @@ body {
 }
 
 .topnav a {
+    user-select: none;
     text-align: center;
     padding: 2vh 6vw;
     text-decoration: none;
