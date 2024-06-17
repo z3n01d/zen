@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>zen</title>
+    <script defer src="htmx.js"></script>
+</head>
+<body>
+    <div class="topnav">
+        <a id="home" class="active down-up-anim2" style="animation-delay: 0.3s;">Home</a>
+        <a id="about" class="down-up-anim2" style="animation-delay: 0.4s;">About me</a>
+        <a id="projects" class="down-up-anim2" style="animation-delay: 0.5s;">My projects</a>
+        <a id="contact" class="down-up-anim2" style="animation-delay: 0.6s;">Contact</a>
+    </div>
+
+    <section id="homesection" class="page-section">
+        <span class="center down-up-anim" style="font-size: 6vh">zen</span>
+        <p class="center down-up-anim" style="font-size: 2vh; padding-top: 7vh; font-weight: lighter; animation-delay: 0.2s;">A self-taught, hobbyist programmer and a dum dum</p>
+    </section>
+
+    <section id="aboutsection" class="page-section section-hidden">
+        <span class="center down-up-anim" style="font-size: 6vh; padding-bottom: 20vh;">About me : </span>
+        <p id="aboutmetext" class="center down-up-anim" style="font-size: 2.7vh; padding-top: 7vh; font-weight: lighter; animation-delay: 0.2s;">
+            My (real) name's Simon, and right now, I'm [myage] years old, I've started programming when I was only 8 years old, when I discovered Roblox, I made couple games
+            but when I turned 14/15, I said to myself "This is really limiting", so I stopped making games on Roblox and I started learning new programming languages
+            like Python, Java, C#, JavaScript etc., and I think I gained enough experience, in 2023, I started attending a high school, to get a degree in computer science,
+            and I'm still attending that school.
+        </p>
+    </section>
+
+    <section id="projectssection" class="page-section section-hidden">
+        <span class="center down-up-anim" style="font-size: 6vh; padding-bottom: 70vh;">My projects : </span>
+
+        <div class="center down-up-anim" style="animation-delay: 0.3s; background-color: transparent; position: absolute; display: flex; flex-direction: column; justify-content: space-evenly; align-items:center; width: 60vw; height: 70vh; top: 55vh;">
+            <div style="background-color: rgba(45,45,65,0.6); width: 80vh; height: 20vh;">
+                <img 
+                    src="https://cdn.modrinth.com/data/jac2HdQt/290b90aaf918093172e374679fdcf8f04f41f5bd.png"
+                    style="
+                    float: left;
+                    height: 100%;
+                    "
+                >
+                <a style="position: relative; font-size: 3vh; top: 10px;" href="https://modrinth.com/mod/man-from-the-fog-reimagined" target="_blank">Man From The Fog Reimagined<br></a>
+                <span style="position: relative; font-size: 2.5vh; font-weight: lighter; top: 40px;">Experience The Man with a fresh coat of paint and a lot harder to beat AI</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactsection" class="page-section section-hidden">
+        <span class="center down-up-anim" style="font-size: 6vh; padding-bottom: 20vh;">My contacts</span>
+    </section>
+   
+    <script defer src="index.js"></script>
+</body>
+</html>
